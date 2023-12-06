@@ -15,9 +15,8 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text",
-      "maxLength": 80
+    "meta_description": {
+      "type": "text"
     },
     "slug": {
       "type": "uid",
@@ -54,6 +53,21 @@
       "relation": "oneToMany",
       "target": "api::sub-category.sub-category",
       "mappedBy": "article"
+    },
+    "state": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "mandal": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "buyer_seller": {
+      "type": "string"
     }
   }
 }
